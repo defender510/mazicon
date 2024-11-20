@@ -6,6 +6,10 @@
 //
 // Scripts
 // 
+document.addEventListener("DOMContentLoaded", function() {
+    const currentYear = new Date().getFullYear();
+    document.getElementById("copyright-year").textContent = currentYear;
+});
 
 window.addEventListener('DOMContentLoaded', event => {
 
